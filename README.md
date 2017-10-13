@@ -1,8 +1,6 @@
 SublimeLinter-contrib-drupalcs
 ================================
 
-[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-drupalcs.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-drupalcs)
-
 This linter plugin for [SublimeLinter][docs] provides an interface to [drupalcs](https://github.com/richardbporter/SublimeLinter-contrib-drupalcs). It will be used with files that have the “PHP, HTML and HTML5” syntax.
 
 ## Installation
