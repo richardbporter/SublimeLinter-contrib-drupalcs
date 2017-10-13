@@ -3,23 +3,17 @@ SublimeLinter-contrib-drupalcs
 
 [![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-drupalcs.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-drupalcs)
 
-This linter plugin for [SublimeLinter][docs] provides an interface to [drupalcs](__linter_homepage__). It will be used with files that have the “__syntax__” syntax.
+This linter plugin for [SublimeLinter][docs] provides an interface to [drupalcs](https://github.com/richardbporter/SublimeLinter-contrib-drupalcs). It will be used with files that have the “PHP, HTML and HTML5” syntax.
 
 ## Installation
 SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here][installation].
 
 ### Linter installation
-Before using this plugin, you must ensure that `drupalcs` is installed on your system. To install `drupalcs`, do the following:
+Before using this plugin, you must ensure that `Coder` is installed on your system. To install `Coder`, do the following:
 
-1. Install Other.
+1. Follow the installation instructions for the Coder project: https://www.drupal.org/project/coder
 
-1. Install `drupalcs` by typing the following in a terminal:
-   ```
-   <package manager> install drupalcs
-   ```
-
-
-**Note:** This plugin requires `drupalcs` __version__ or later.
+**Note:** This plugin requires `Coder` 8.x or later.
 
 ### Linter configuration
 In order for `drupalcs` to be executed by SublimeLinter, you must ensure that its path is available to SublimeLinter. Before going any further, please read and follow the steps in [“Finding a linter executable”](http://sublimelinter.readthedocs.org/en/latest/troubleshooting.html#finding-a-linter-executable) through “Validating your PATH” in the documentation.
